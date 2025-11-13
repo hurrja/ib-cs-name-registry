@@ -3,22 +3,23 @@
    This repository contains the bare bones of an application for
    practicing model-view-controller (MVC) architecture.
 
-** Installation in VS Code
-   To install the application in VS code, do the following:
+** Installation in IDEA
+   To install the application in IDEA, do the following:
    1. Clone the repository.
-   2. Open file =name_registry_app.py=.
-   3. Run file.
-   Make changes to the project and run it again.
+   2. Right click on class =NameRegistryApp=.
+   3. Select =Run NameRegistryApp.main()=
+   You are now able to make changes to the project and run it again.
 
 ** Alternative installation from command line
    1. Clone repository.
-   2. Run app with
+   2. Inside repo, run =ant= to build the app.
+   3. Run app with
       #+begin_src sh
-        python name_registry_app.py
+        java -jar build/jar/NameRegistryApp.jar
       #+end_src
    
 ** License
-   Copyright (C) 2025 Jarmo Hurri
+   Copyright (C) 2020 Jarmo Hurri
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
