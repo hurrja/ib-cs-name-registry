@@ -14,9 +14,18 @@
 # along with this program.  If not, see <https:#www.gnu.org/licenses/>.
 
 class UserInterface:
+    # returns a name read from user, None if user inputs empty line
+    def read_name(self):
+        name = input()
+        if name == '':
+            return None
+        else:
+            return name
+
     # returns a list of names read from the user
     def read_names(self):
-        # code to be written here
+        print('type names be saved in registry (one per line, empty line ends):')
+        # code to be written here; use read_name()
         return [] # this line must also be deleted
 
     # prints names, each name on a separate line
